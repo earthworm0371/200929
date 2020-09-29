@@ -1,0 +1,110 @@
+@-webkit-keyframes ohoh{
+	0%{
+		margin-left: 10px;
+	}
+
+	50%{
+		margin-left:675px;
+	}
+
+	100%{
+		margin-left:10px;
+	}
+}
+
+
+@keyframes opacityTOZERO{
+	0%{background-color: black;}
+	25%{background-color: #460d73;}
+	50%{background-color: #2537a8;}
+	75%{background-color: #bb1d3a;}
+	100%{background-color: black;}
+} 
+
+body{
+	padding-left: 550px;
+	padding-top: 220px;
+	background-color: black;
+	animation: opacityTOZERO;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-play-state: paused;	}
+
+body:hover{animation-play-state:running;}
+
+
+
+.box{
+	width: 800px;
+	height: 150px;
+	border: 8px solid #a168cd;
+	display: flex;
+	align-items: center;
+	margin-bottom: 50px;
+
+
+}
+
+.mini-box{
+	margin: 10px;
+	width: 100px;
+	height:100px;
+	background-color: white;
+	animation-name: ohoh;
+	animation-duration: 6s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+
+	transition-property: background-color, transform;
+	transition-duration: 1.5s;
+} 
+
+.mini-box:hover{
+	background-color: #781ac2;
+	transform: rotate(360deg);
+
+
+
+}
+
+.mini-box2{
+	margin: 10px;
+	width: 100px;
+	height:100px;
+	background-color: white;
+	animation-name: ohoh;
+	animation-duration: 4s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+
+	transition-property: background-color, transform;
+	transition-duration: 1.5s;
+} 
+
+.mini-box2:hover{
+	background-color: #315ede;
+	transform: rotate(360deg);
+
+}
+
+.mini-box3{
+	margin: 10px;
+	width: 100px;
+	height:100px;
+	background-color: white;
+	animation-name: ohoh;
+	animation-duration: 9s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+
+	transition-property: background-color, transform;
+	transition-duration: 1.5s;
+} 
+
+.mini-box3:hover{
+	background-color: #e6184e;
+	transform: rotate(360deg);
+
+}
+
+ 
